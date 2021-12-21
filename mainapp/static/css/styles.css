@@ -1,0 +1,50 @@
+:root {
+    /** Fuentes **/
+    /* --fuentePrincipal: 'Libre Franklin', sans-serif;
+    --fuenteSecundaria: 'Outsiders', sans-serif;
+    --fuenteSecundaria: 'Libre Franklin', sans-serif; */
+  
+    /** Colores **/
+    --grisClaro: #e2e2e2;
+    --verde: #0a2f20;
+    --blanco: #fff;
+  }
+body{
+    background-color: var(--grisClaro);
+}
+
+h1{
+    padding-bottom: 3rem;
+}
+
+header.header .logo{
+  padding: 1rem 0;
+}
+form.formulario{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid var(--verde);
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: var(--blanco);
+}
+
+nav.navegacion-principal a{
+    padding: 0.5rem 1rem;
+    transition: all .6s ease;
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+nav.navegacion-principal a:hover{
+    background-color: var(--verde);
+    color:white!important;
+  }
+
+  footer{
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 1rem 0;
+  }
