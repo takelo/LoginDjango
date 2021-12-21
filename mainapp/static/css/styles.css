@@ -6,9 +6,16 @@
   
     /** Colores **/
     --grisClaro: #e2e2e2;
+    --grisOscuro: #929292;
     --verde: #0a2f20;
     --blanco: #fff;
   }
+
+
+.btn.btn-primary{
+  background: var(--verde)!important;
+  border: none;
+}
 body{
     background-color: var(--grisClaro);
 }
@@ -44,7 +51,7 @@ nav.navegacion-principal a:hover{
   }
 
   footer{
-    background-color: var(--verde);
+    background-color: var(--grisOscuro);
     color: var(--blanco);
     padding: 1rem 0;
   }
