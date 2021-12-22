@@ -1,7 +1,7 @@
 # LoginDjango
 
-Desarrollado en:
-Python 3.4.3
+Desarrollado y probado en:
+Python 3.4.3/3.6
 Django 1.11
 
 Instalacion

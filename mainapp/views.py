@@ -22,6 +22,7 @@ def register_page(request):
     if request.method == 'POST':
         register_form = RegisterForm(request.POST)
         if register_form.is_valid():
+
             register_form.save()
             messages.success(request, 'Registro exitoso, ingresa con tus credenciales')
 

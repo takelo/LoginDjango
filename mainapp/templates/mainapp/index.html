@@ -21,6 +21,7 @@
 			<h1>Bienvenido, {{request.user}} {{ user.email }}</h1>
 			<a href="/admin" class="btn btn-primary my-5"> Panel Admin </a>
 			<h3>Usuarios en la BD</h3>
+	
 			{% for u in users %}
 			<div class="row">
 				<p>Usuario: {{u}}</p>
